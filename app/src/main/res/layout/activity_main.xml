@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+<LinearLayout
+    android:layout_marginTop="220dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/date"
+        android:textColor="@color/yellow"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+
+        android:layout_height="60dp"
+        style="@style/YellowTextWithShadow"/>
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/hijra_date"
+        android:textColor="@color/yellow"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+
+        android:fontFamily="monospace"
+        android:layout_height="60dp"
+        style="@style/YellowTextWithShadow"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/fajr"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:layout_column="0"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="@drawable/border_rounded"
+
+        />
+
+    <TextView
+            android:id="@+id/sunrise"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_column="0"
+        android:layout_margin="5dp"
+            android:gravity="center"
+        android:textColor="@color/white"
+            android:text=""
+        android:background="@drawable/border_rounded"
+
+            />
+
+        <TextView
+            android:id="@+id/dhuhr"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text=""
+            android:background="@drawable/border_rounded"
+
+            />
+
+        <TextView
+            android:id="@+id/asr"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text=""
+            android:background="@drawable/border_rounded"
+
+            />
+
+        <TextView
+            android:id="@+id/maghrib"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_column="0"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text=""
+            android:background="@drawable/border_rounded"
+
+            />
+
+        <TextView
+            android:id="@+id/isha"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_column="0"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text=""
+            android:background="@drawable/border_rounded"
+
+            />
+
+
+</LinearLayout>
+
+
+
+
+
+</RelativeLayout>

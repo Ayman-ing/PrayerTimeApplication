@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources><style name="SpinnerTheme" parent="android:Widget.DeviceDefault.Spinner">
+    <item name="android:background">@drawable/spinner_bg</item>
+    <item name="android:padding">8dp</item>
+    <item name="android:paddingTop">5dp</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:paddingBottom">5dp</item>
+    <item name="android:paddingRight">15dp</item>
+</style>
+    <style name="YellowTextWithShadow">
+        <item name="android:textColor">#FFFF00</item> <!-- Yellow color -->
+        <item name="android:shadowColor">#808080</item> <!-- Shadow color -->
+        <item name="android:shadowDx">2</item> <!-- Shadow horizontal offset -->
+        <item name="android:shadowDy">2</item> <!-- Shadow vertical offset -->
+        <item name="android:shadowRadius">3</item> <!-- Shadow blur radius -->
+    </style></resources>

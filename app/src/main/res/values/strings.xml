@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PrayerTime</string>
+    <string name="title_activity_get_location">GetLocationActivity</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PrayerTime" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue</item> <!-- Change the primary color to green -->
+        <item name="colorPrimaryDark">@color/blue</item> <!-- Change the primary dark color to green if needed -->
+        <item name="colorAccent">@color/blue</item> <!-- Change the accent color to green if needed -->
+    </style>
+
+    <style name="Theme.PrayerTime" parent="Base.Theme.PrayerTime" />
+
+</resources>
